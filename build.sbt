@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.12.7"
 lazy val akkaVersion = "2.5.13" // must be 2.5.13 so that it's compatible with the stores plugins (JDBC and Cassandra)
-lazy val leveldbVersion = "0.7"
+lazy val leveldbVersion = "0.11"
 lazy val leveldbjniVersion = "1.8"
 lazy val postgresVersion = "42.2.2"
 lazy val cassandraVersion = "0.91"
